@@ -17,10 +17,10 @@ jobs:
         platform: [ubuntu-latest, macos-latest, windows-latest]
         include:
         - platform: ubuntu-latest
-          version: "3.6"
+          version: "3.10"
         exclude:
         - platform: windows-latest
-          version: "3.10"
+          version: "3.6"
     runs-on: ${{ matrix.platform }}
     steps:
     - uses: actions/checkout@v2
