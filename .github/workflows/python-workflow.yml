@@ -42,5 +42,4 @@ jobs:
     - name: Test the application with mock data
       run: |
         python sum_frequencies.py MOCK_DATA.json
-    - name: Running on Platform = ${{ matrix.platform }} python = ${{ matrix.version }}    
-      run: npm test
+    - name: Running on Platform = ${{ matrix.platform }} python = ${{ matrix.version }} 
